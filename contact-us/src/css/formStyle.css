@@ -1,0 +1,75 @@
+
+pre{
+    margin-bottom: 0.2rem;
+}
+.userInputs{
+    width: 100%;
+    padding: 1rem;
+    margin: auto 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #6964c8;
+    outline-color: rgb(65, 159, 190);
+    color: white;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+}
+::placeholder{
+    color: #383232;
+}
+option{
+    padding: 0.2rem 0rem;
+    font-weight: 600;
+    color: #383232;
+}
+select{
+    color: #211d1d;
+}
+pre{
+    color: #fffafa;
+    background-color: #2a2929;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    stroke: #65add0;
+    background-color: #2a2929;
+    stroke-width: 0.17rem;
+    border-radius: 100%;
+    padding: 0.4rem;
+}
+#skill{
+    width: 30rem;
+    height: 7.5rem;
+}
+button { 
+    padding: 0.7rem 2.6rem;
+    border-radius: 0.5rem;
+    background-color: #2a2929;
+    border: 1px solid #fff;
+    color: #6964c8;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin: 1rem auto;
+}
+button:hover{
+    background-color: #6964c8;
+    color: #fff;
+}
+button:active{
+    opacity: 0.8;
+}
+h1, h2, h3, h4, h5, h6, p{
+    background-color: #2a2929;
+    color: #60a3c4;
+    text-transform: capitalize;
+}
+label{
+    background-color: #2a2929;
+    color: #6964c8;
+    text-transform: capitalize;
+}

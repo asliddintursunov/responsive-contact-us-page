@@ -1,0 +1,51 @@
+:root{
+    font-size: 62.5%;
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  background: radial-gradient(circle, #6964c8 10%, transparent 11%);
+        background-size: 2em 2em;
+        background-color: #2a2929;
+        opacity: 1
+}
+#container{
+  display: flex;
+  flex-direction: column;
+}
+#inputs{
+  text-align: center;
+}
+@media (max-width: 892px) {
+  #inputs > form > div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  #outputs > div {
+    font-size: small;
+  }
+}
+
+@media (max-width: 496px) {
+  #inputs > form > div {
+    font-size: small;
+  }
+  #inputs .userInputs{
+    width: 85%;
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.3rem;
+  }
+  #outputs > div{
+    font-size: 1.1rem;
+  }
+  #outputs > svg{
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+}
